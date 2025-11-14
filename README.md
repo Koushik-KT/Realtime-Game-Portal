@@ -36,44 +36,36 @@ Clone the repository:
 ```bash
 git clone https://github.com/Koushik-KT/Realtime-Game-Portal.git
 cd Realtime-Game-Portal
+```
+
 Backend
-bash
+```bash
 Copy code
 cd backend
 npm install
 node server.js
+```
+
 Frontend
-bash
+```bash
 Copy code
 cd frontend
 npm install
 npm run build   # production build
 npm run dev     # for local development
+```
+---
+## 🚀 Deployment
+- **Frontend URL: https://realtime-game-portal-suh7-aovg0hogy-koushik-kts-projects.vercel.app/**
+- **Backend URL: https://game-portal-backend.onrender.com/**
 
-🚀 Deployment
-Frontend URL: https://realtime-game-portal-suh7-aovg0hogy-koushik-kts-projects.vercel.app/
+## 📄 Project Guide
+- **See Game Portal Guide for:**
+  - Architecture overview
+  - Component structure
+  - How to add new games
+  - Backend API details
 
-Backend URL: https://game-portal-backend.onrender.com/
-
-Make sure frontend/src/config.js has BACKEND_URL set to your deployed backend.
-
-📄 Project Guide
-See Game Portal Guide for:
-
-Architecture overview
-
-Component structure
-
-How to add new games
-
-Backend API details
-
-👤 Resume Summary
-See Resume Summary for a concise description suitable for your portfolio or resume.
-
-💡 Notes
-.gitignore excludes node_modules/ and dist/.
-
-Repo is normalized for cross-platform development (LF line endings).
-
-Ready for deployment on Vercel (frontend) and Render (backend).
+## 👤 Resume Summary
+- **See Resume Summary for a concise description suitable for your portfolio or resume.**
+**Developed by Koushik Tripathy**
