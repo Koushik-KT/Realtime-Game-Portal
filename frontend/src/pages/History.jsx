@@ -1,0 +1,2 @@
+import { getHistory } from "../utils/storage";
+export default function History(){const history = getHistory();return (<div className="container"><div className="card"><h2>Game History</h2>{history.length===0 ? <p className="small">No history yet.</p> : history.map((h,i)=>(<div key={i} style={{padding:8,borderBottom:"1px solid rgba(255,255,255,0.02)"}}><strong>{h.game}</strong> — {h.result} <div className="small">{h.time}</div></div>))}</div></div>);}

@@ -1,0 +1,2 @@
+import { getScores } from "../utils/storage";
+export default function Scores(){const scores = getScores();return (<div className="container"><div className="card"><h2>Your Scores</h2><pre>{Object.keys(scores).length ? JSON.stringify(scores,null,2) : "No scores yet."}</pre></div></div>);}
